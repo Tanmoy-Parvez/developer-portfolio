@@ -1,0 +1,97 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 45px;
+}
+
+.orange-text{
+    color: orange;
+   
+
+}
+
+.flexible-container{
+    display: flex; 
+    margin-bottom: 150px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 60px;
+}
+
+.half-width img{
+    width: 85%;
+}
+
+.half-width p{
+    text-align: justify;
+    color: gray;
+    padding-bottom: 10px;
+    padding-right: 120PX;;
+}
+
+.link-btn{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(90deg, salmon, tomato);
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+#top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+#second-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#experience-sec{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+.experience-item h2{
+    font-size: 35px;
+}
+
+.experience-item p{
+    color: grey;
+    text-align: justify;
+}
+
+.experience-item{
+width: 38%;
+height: 350px;
+margin-left: 4%;
+box-shadow: 10px 10px 40px grey;
+border-radius: 5px;
+padding: 40px;
+}
+
+#box-1{
+    border-left: 8px solid;
+    border-image: linear-gradient(tomato, salmon) ;
+    border-image-slice: 1;
+}
+
+#box-2{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    color: grey;
+}
